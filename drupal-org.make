@@ -20,7 +20,7 @@ projects[auto_entitylabel][subdir] = "contrib"
 projects[autosave][version] = "2.2"
 projects[autosave][subdir] = "contrib"
 
-projects[backup_migrate][version] = "2.7"
+projects[backup_migrate][version] = "3.1"
 projects[backup_migrate][subdir] = "contrib"
 
 projects[biblio][version] = "1.0-rc7"
@@ -33,7 +33,7 @@ projects[biblio][patch][] = "http://drupal.org/files/issues/biblio_crossref_GET_
 projects[captcha][version] = "1.3"
 projects[captcha][subdir] = "contrib"
 
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.10"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.6"
@@ -91,7 +91,7 @@ projects[email][subdir] = "contrib"
 projects[emptyparagraphkiller][version] = "1.0-beta2"
 projects[emptyparagraphkiller][subdir] = "contrib"
 
-projects[entity][version] = "1.6"
+projects[entity][version] = "1.7"
 projects[entity][subdir] = "contrib"
 
 projects[entitycache][version] = "1.5"
@@ -109,7 +109,7 @@ projects[extlink][subdir] = "contrib"
 projects[facetapi][version] = "1.3"
 projects[facetapi][subdir] = "contrib"
 
-projects[features][version] = "1.x-dev"
+projects[features][version] = "2.10"
 projects[features][subdir] = "contrib"
 
 projects[field_permissions][version] = "1.0-beta2"
@@ -135,7 +135,7 @@ projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][patch][] = "http://drupal.org/files/2033269-attach-realpath.patch"
 
 ; @todo Change to 1.3 release when available.
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 projects[field_group][subdir] = "contrib"
 
 projects[flag][version] = "3.0-rc1"
@@ -151,7 +151,7 @@ projects[geofield][patch][] = http://www.drupal.org/files/geofield-sql-field-typ
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
 
-projects[google_analytics][version] = "2.1"
+projects[google_analytics][version] = "2.3"
 projects[google_analytics][subdir] = "contrib"
 
 projects[helper][version] = "1.7"
@@ -203,7 +203,7 @@ projects[name][subdir] = "contrib"
 projects[noggin][version] = "1.1"
 projects[noggin][subdir] = "contrib"
 
-projects[options_element][version] = "1.9"
+projects[options_element][version] = "1.12"
 projects[options_element][subdir] = "contrib"
 ; For empty values, only show two key/value fields instead of three
 ; @see https://drupal.org/node/2012198
@@ -252,11 +252,14 @@ projects[search_api_ranges][subdir] = "contrib"
 projects[search_api_page][version] = "1.x-dev"
 projects[search_api_page][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.18"
+projects[select_or_other][version] = "2.22"
 projects[select_or_other][subdir] = "contrib"
 ; Fix required select_or_other fields
 ; @see https://drupal.org/node/2030249#comment-7590279
-projects[select_or_other][patch][] = "http://drupal.org/files/select_or_other_required-2030249-1.patch"
+; projects[select_or_other][patch][] = "http://drupal.org/files/select_or_other_required-2030249-1.patch"
+; BELOW IS THE NEWER PATCH, ABOVE WAS ORIGINALLY UNREMARKED
+; @see https://www.drupal.org/node/2030249#comment-7742025
+; projects[select_or_other][patch][] = "https://www.drupal.org/files/select_or_other_required-2030249-1.patch"
 
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
@@ -293,7 +296,7 @@ projects[token_formatters][subdir] = "contrib"
 projects[url][version] = "1.x-dev"
 projects[url][subdir] = "contrib"
 
-projects[views][version] = "3.13"
+projects[views][version] = "3.14"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.3"
@@ -302,7 +305,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "3.19"
+projects[webform][version] = "4.12"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"

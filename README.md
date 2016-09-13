@@ -43,7 +43,7 @@ For the example commands below, 'www' represents the complete path to your site'
 
 [Fork the repo](https://help.github.com/articles/fork-a-repo/), then clone your forked copy with this:
 
-* `git clone --branch 7.x-1.x git@github.com:lter/deims.git`
+* `git clone --branch 7.x-1.x git@github.com:lter-jrn/deims.git`
 
 Optionally, you can specify the destination folder by adding the folder name to the end of the line above.
 Build the site into your webroot:
