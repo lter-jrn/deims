@@ -1,0 +1,12 @@
+name = deims_taxonomy_data_category
+description = Jornada data categories
+core = 7.x
+package = package = DEIMS Base
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = jornada_data_category
+features[variable][] = pathauto_taxonomy_term_jornada_data_category_pattern

@@ -1,0 +1,12 @@
+name = DEIMS Taxonomy Dataset Research Area
+description = Jornada research area keywords from LTER VI proposal
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = lter_vi_proposal_category
+features[variable][] = pathauto_taxonomy_term_lter_vi_proposal_category_pattern

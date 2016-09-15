@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DEIMS Taxonomy Dataset Research Area feature.
+ */
+
+include_once 'deims_taxonomy_dataset_research_area.features.inc';

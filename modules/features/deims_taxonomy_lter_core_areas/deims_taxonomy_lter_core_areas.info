@@ -1,0 +1,12 @@
+name = DEIMS Taxonomy LTER Core Areas
+description = Tags dataset as 1 or more LTER Core Areas of Research
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = lter_core_areas
+features[variable][] = pathauto_taxonomy_term_lter_core_areas_pattern

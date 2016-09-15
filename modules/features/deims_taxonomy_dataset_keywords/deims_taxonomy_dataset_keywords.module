@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deims_taxonomy_dataset_keywords feature.
+ */
+
+include_once 'deims_taxonomy_dataset_keywords.features.inc';

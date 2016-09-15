@@ -1,0 +1,12 @@
+name = deims_taxonomy_dataset_status
+description = Status of dataset (ongoing, completed)
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = dataset_status
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][strongarm] = strongarm
+features_exclude[variable][pathauto_taxonomy_term_dataset_status_pattern] = pathauto_taxonomy_term_dataset_status_pattern

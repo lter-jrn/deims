@@ -1,0 +1,12 @@
+name = DEIMS Taxonomy Dataset Long Term
+description = Tags datasets as long-term datasets (>10 years)
+core = 7.x
+package = DEIMS Base
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = long_term_dataset
+features[variable][] = pathauto_taxonomy_term_long_term_dataset_pattern

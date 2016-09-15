@@ -1,0 +1,12 @@
+name = DEIMS Taxonomy Dataset Signature
+description = Tags datasets as signature (core) datasets
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = signature_dataset
+features[variable][] = pathauto_taxonomy_term_signature_dataset_pattern

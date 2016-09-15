@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the deims_taxonomy_data_category feature.
+ */
+
+include_once 'deims_taxonomy_data_category.features.inc';

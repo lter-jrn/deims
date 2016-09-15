@@ -1,0 +1,12 @@
+name = deims_taxonomy_dataset_keywords
+description = Jornada dataset keywords originally assigned by principal investigator
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = taxonomy
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[taxonomy][] = jornada_dataset_keywords
+features[variable][] = pathauto_taxonomy_term_jornada_dataset_keywords_pattern
