@@ -36,7 +36,7 @@ projects[captcha][subdir] = "contrib"
 projects[ctools][version] = "1.10"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.6"
+projects[context][version] = "3.7"
 projects[context][subdir] = "contrib"
 
 projects[chosen][version] = "2.0-beta4"
@@ -70,10 +70,10 @@ projects[devel][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
-projects[ds][version] = "2.11"
+projects[ds][version] = "2.14"
 projects[ds][subdir] = "contrib"
 
-projects[eck][version] = "2.0-rc2"
+projects[eck][version] = "2.0-rc8"
 projects[eck][subdir] = "contrib"
 ; Add entity access alter for ECK entities.
 ; @see https://drupal.org/node/1969394
@@ -97,7 +97,7 @@ projects[entity][subdir] = "contrib"
 projects[entitycache][version] = "1.5"
 projects[entitycache][subdir] = "contrib"
 
-projects[entityreference][version] = "1.1"
+projects[entityreference][version] = "1.2"
 projects[entityreference][subdir] = "contrib"
 
 projects[entity_view_mode][version] = "1.0-rc1"
@@ -106,7 +106,7 @@ projects[entity_view_mode][subdir] = "contrib"
 projects[extlink][version] = "1.18"
 projects[extlink][subdir] = "contrib"
 
-projects[facetapi][version] = "1.3"
+projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
 
 projects[features][version] = "2.10"
@@ -154,26 +154,26 @@ projects[geophp][subdir] = "contrib"
 projects[google_analytics][version] = "2.3"
 projects[google_analytics][subdir] = "contrib"
 
-projects[helper][version] = "1.7"
+projects[helper][version] = "1.9"
 projects[helper][subdir] = "contrib"
 
-projects[inline_entity_form][version] = "1.x-dev"
+projects[inline_entity_form][version] = "1.8"
 projects[inline_entity_form][subdir] = "contrib"
 ; Limit 'Add new' bundle options when entityreference uses a view for selection
 ; @see https://drupal.org/node/1872316
 projects[inline_entity_form][patch][] = https://www.drupal.org/files/issues/1872316-ief-bundle-selection-erv-22_0.patch
 
-projects[libraries][version] = "2.2"
+projects[libraries][version] = "2.3"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.3"
+projects[link][version] = "1.4"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
 projects[media][version] = "2.x-dev"
 projects[media][subdir] = "contrib"
 
-projects[menu_block][version] = "2.3"
+projects[menu_block][version] = "2.7"
 projects[menu_block][subdir] = "contrib"
 
 projects[migrate][version] = "2.6-rc1"
@@ -197,7 +197,7 @@ projects[migrate_extras][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
-projects[name][version] = "1.9"
+projects[name][version] = "1.10"
 projects[name][subdir] = "contrib"
 
 projects[noggin][version] = "1.1"
@@ -221,7 +221,7 @@ projects[pathauto_persist][subdir] = "contrib"
 projects[print][version] = "2.0"
 projects[print][subdir] = "contrib"
 
-projects[recaptcha][version] = "1.9"
+projects[recaptcha][version] = "1.13"
 projects[recaptcha][subdir] = "contrib"
 
 ; Dave Reid maintains this D8 backport, dev release is ok.
@@ -243,7 +243,7 @@ projects[schema_reference][subdir] = "contrib"
 projects[search_api][version] = "1.20"
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = "1.4"
+projects[search_api_db][version] = "1.5"
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = "1.4"
@@ -305,7 +305,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "4.12"
+projects[webform][version] = "4.14"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
@@ -333,10 +333,10 @@ projects[wysiwyg_linebreaks][subdir] = "contrib"
 ; Contributed themes
 ; -----------------------------------------------------------------------------
 
-projects[adaptivetheme][version] = "3.2"
+projects[adaptivetheme][version] = "3.4"
 projects[adaptivetheme][subdir] = "contrib"
 
-projects[pixture_reloaded][version] = "3.0"
+projects[pixture_reloaded][version] = "3.1"
 projects[pixture_reloaded][subdir] = "contrib"
 
 projects[shiny][version] = "1.3"
