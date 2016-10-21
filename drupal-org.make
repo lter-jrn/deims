@@ -33,7 +33,7 @@ projects[biblio][patch][] = "http://drupal.org/files/issues/biblio_crossref_GET_
 projects[captcha][version] = "1.3"
 projects[captcha][subdir] = "contrib"
 
-projects[ctools][version] = "1.10"
+projects[ctools][version] = "1.11"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.7"
@@ -92,7 +92,7 @@ projects[email][subdir] = "contrib"
 projects[emptyparagraphkiller][version] = "1.0-beta2"
 projects[emptyparagraphkiller][subdir] = "contrib"
 
-projects[entity][version] = "1.7"
+projects[entity][version] = "1.8"
 projects[entity][subdir] = "contrib"
 
 projects[entitycache][version] = "1.5"
@@ -113,7 +113,7 @@ projects[facetapi][subdir] = "contrib"
 projects[features][version] = "2.10"
 projects[features][subdir] = "contrib"
 
-projects[field_permissions][version] = "1.0-beta2"
+projects[field_permissions][version] = "1.0"
 projects[field_permissions][subdir] = "contrib"
 
 projects[field_referenced_delete][version] = "1.0"
