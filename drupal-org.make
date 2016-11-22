@@ -171,7 +171,7 @@ projects[link][version] = "1.4"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.x-dev"
+projects[media][version] = "2.0-beta9"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.7"
