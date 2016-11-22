@@ -33,7 +33,7 @@ projects[biblio][patch][] = "http://drupal.org/files/issues/biblio_crossref_GET_
 projects[captcha][version] = "1.3"
 projects[captcha][subdir] = "contrib"
 
-projects[ctools][version] = "1.11"
+projects[ctools][version] = "1.12"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.7"
