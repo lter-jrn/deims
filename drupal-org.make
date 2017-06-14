@@ -22,6 +22,12 @@ projects[autosave][subdir] = "contrib"
 
 projects[backup_migrate][version] = "3.1"
 projects[backup_migrate][subdir] = "contrib"
+; Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP
+; @see https://www.drupal.org/node/2623598
+projects[backup_migrate][patch][] = "https://www.drupal.org/files/issues/backup_migrate-fix_constructor_for_future_version_php-2623598-5-7.x.patch"
+; Error: [] operator not supported for strings in backup_migrate_crud_ui_list_all()
+; @see https://www.drupal.org/node/2839264
+projects[backup_migrate][patch][] = "https://www.drupal.org/files/issues/backup_migrate_2839264_settings_page_php71_2.patch"
 
 projects[biblio][version] = "1.0-rc7"
 projects[biblio][subdir] = "contrib"
@@ -103,6 +109,9 @@ projects[emptyparagraphkiller][subdir] = "contrib"
 
 projects[entity][version] = "1.8"
 projects[entity][subdir] = "contrib"
+; PHP Fatal error: Class name must be a valid object or a string.
+; @see https://www.drupal.org/node/1667536
+projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-entity_get_controller_null_controller-1667536-39-d7.patch"
 
 projects[entitycache][version] = "1.5"
 projects[entitycache][subdir] = "contrib"
