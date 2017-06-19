@@ -152,7 +152,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.1"
+projects[file_entity][version] = "2.2"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.10"
@@ -211,7 +211,7 @@ projects[migrate_d2d][subdir] = "contrib"
 projects[migrate_extras][version] = "2.5"
 projects[migrate_extras][subdir] = "contrib"
 
-projects[module_filter][version] = "2.0"
+projects[module_filter][version] = "2.1"
 projects[module_filter][subdir] = "contrib"
 
 projects[name][version] = "1.10"
@@ -248,7 +248,7 @@ projects[responsive_tables][subdir] = "contrib"
 projects[rules][version] = "2.10"
 projects[rules][subdir] = "contrib"
 
-projects[schema][version] = "1.2"
+projects[schema][version] = "1.3"
 projects[schema][subdir] = "contrib"
 
 projects[schemaorg][version] = "1.0-rc1"
