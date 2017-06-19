@@ -85,6 +85,14 @@ projects[devel][subdir] = "contrib"
 projects[diff][version] = "3.3"
 projects[diff][subdir] = "contrib"
 
+; The workbench_moderation module version 7.x-3.x now requires the drafty module to be installed.
+;
+; Aegir migration error, 'Unable to enable the Drafty module, it is a new dependency that must be downloaded.',
+; when upgrading from workbench_moderation module version 7.1x to 7.3x. Solution is to install the drafty module
+; before migrating the site in Aegir
+projects[drafty][version] = "1.0-beta4"
+projects[drafty][subdir] = "contrib"
+
 projects[ds][version] = "2.14"
 projects[ds][subdir] = "contrib"
 
@@ -188,7 +196,7 @@ projects[link][version] = "1.4"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.6"
+projects[media][version] = "2.8"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.7"
@@ -328,6 +336,15 @@ projects[workbench_email][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.4"
 projects[wysiwyg][subdir] = "contrib"
+; Aegir failed migration attempt: 
+;  PROBLEM:
+;   When upgrading Drupal from 7.52 to 7.53 and higher you may
+;   receive an error about 'Unknown entity type wysiwyg_profile'
+;   that it is an issue when the wysiwyg module is disabled.
+; SOLUTION:
+;   Enable the module in the admin menu of the site or with PhpMyAdmin
+;   before running the Aegir site migration. 
+; @see https://www.drupal.org/node/2841342#10
 
 projects[wysiwyg_linebreaks][version] = "1.8"
 projects[wysiwyg_linebreaks][subdir] = "contrib"
@@ -338,6 +355,9 @@ projects[wysiwyg_linebreaks][subdir] = "contrib"
 
 projects[adaptivetheme][version] = "3.4"
 projects[adaptivetheme][subdir] = "contrib"
+; PHP 7.1 no longer converts string to arrays the first time a value is assigned with square bracket notation
+; @see https://www.drupal.org/node/2832900
+projects[adaptivetheme][patch][] = "https://www.drupal.org/files/issues/adaptivetheme-php_string_cast_array-2832900-1.patch"
 
 projects[pixture_reloaded][version] = "3.1"
 projects[pixture_reloaded][subdir] = "contrib"
