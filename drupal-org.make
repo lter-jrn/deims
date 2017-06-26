@@ -74,6 +74,9 @@ projects[datatables][patch][] = "http://drupal.org/files/1904140-datatables-fix-
 
 projects[date][version] = "2.10"
 projects[date][subdir] = "contrib"
+; String Offset errors on edit page using PHP 7.1.0
+; @see https://www.drupal.org/node/2843367
+projects[datatables][patch][] = "https://www.drupal.org/files/issues/2843367-php71-string-offset-26.patch"
 
 projects[date_facets][version] = "1.0"
 projects[date_facets][subdir] = "contrib"
