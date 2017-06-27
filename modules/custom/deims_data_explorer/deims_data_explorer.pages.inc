@@ -91,7 +91,7 @@ function deims_data_explorer_form($form, &$form_state, $variables, $connection, 
       $allowed_filters_variables[$index]['schema'] = $schema[$connection['table']]['fields'][$variable['name']];
     }
   }
-c
+
   // Check if the form has been submitted.
   if (isset($form_state['values']['op'])) {
     // Get columns submitted in the form.
