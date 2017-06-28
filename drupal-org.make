@@ -43,6 +43,9 @@ projects[biblio][patch][] = "https://www.drupal.org/files/issues/biblio-publicat
 ; Biblio PHP7 compatibility
 ; @see https://www.drupal.org/node/2806971
 projects[biblio][patch][] = "https://www.drupal.org/files/issues/biblio-fix_php7_issues-2806971-6.patch"
+; Bibliography secondary sort within year by primary author
+; @see https://www.drupal.org/node/1310186
+projects[biblio][patch][] = "https://www.drupal.org/files/issues/secondary-sort-year-by-primary-author-1310186-19.patch"
 	
 projects[captcha][version] = "1.4"
 projects[captcha][subdir] = "contrib"
