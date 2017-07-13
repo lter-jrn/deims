@@ -170,6 +170,9 @@ projects[filefield_sources][patch][] = "http://drupal.org/files/2033269-attach-r
 ; @todo Change to 1.3 release when available.
 projects[field_group][version] = "1.5"
 projects[field_group][subdir] = "contrib"
+; field_group_field_group_to_hook_code PHP 7 support
+; @see https://www.drupal.org/node/2661484
+projects[filefield_sources][patch][] = "https://www.drupal.org/files/issues/field_group-php7-2661484-2.patch"
 
 projects[flag][version] = "3.9"
 projects[flag][subdir] = "contrib"
