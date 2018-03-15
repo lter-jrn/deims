@@ -20,14 +20,8 @@ projects[auto_entitylabel][subdir] = "contrib"
 projects[autosave][version] = "2.2"
 projects[autosave][subdir] = "contrib"
 
-projects[backup_migrate][version] = "3.1"
+projects[backup_migrate][version] = "3.5"
 projects[backup_migrate][subdir] = "contrib"
-; Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP
-; @see https://www.drupal.org/node/2623598
-projects[backup_migrate][patch][] = "https://www.drupal.org/files/issues/backup_migrate-fix_constructor_for_future_version_php-2623598-5-7.x.patch"
-; Error: [] operator not supported for strings in backup_migrate_crud_ui_list_all()
-; @see https://www.drupal.org/node/2839264
-projects[backup_migrate][patch][] = "https://www.drupal.org/files/issues/backup_migrate_2839264_settings_page_php71_2.patch"
 
 projects[biblio][version] = "1.0-rc7"
 projects[biblio][subdir] = "contrib"
@@ -47,16 +41,16 @@ projects[biblio][patch][] = "https://www.drupal.org/files/issues/biblio-fix_php7
 ; @see https://www.drupal.org/node/1310186
 projects[biblio][patch][] = "https://www.drupal.org/files/issues/secondary-sort-year-by-primary-author-1310186-19.patch"
 	
-projects[captcha][version] = "1.4"
+projects[captcha][version] = "1.5"
 projects[captcha][subdir] = "contrib"
 
-projects[ctools][version] = "1.12"
+projects[ctools][version] = "1.14"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.7"
 projects[context][subdir] = "contrib"
 
-projects[chosen][version] = "2.0-beta4"
+projects[chosen][version] = "2.1"
 projects[chosen][subdir] = "contrib"
 ; Add support for the koenpunt fork of Chosen with supports adding options
 ; @see https://drupal.org/node/2012900
@@ -79,7 +73,7 @@ projects[date][version] = "2.10"
 projects[date][subdir] = "contrib"
 ; String Offset errors on edit page using PHP 7.1.0
 ; @see https://www.drupal.org/node/2843367
-projects[datatables][patch][] = "https://www.drupal.org/files/issues/2843367-php71-string-offset-26.patch"
+projects[date][patch][] = "https://www.drupal.org/files/issues/2843367-php71-string-offset-26.patch"
 
 projects[date_facets][version] = "1.0"
 projects[date_facets][subdir] = "contrib"
@@ -112,7 +106,7 @@ projects[eck][patch][] = "https://www.drupal.org/files/issues/eck-entity_access_
 ; @see https://drupal.org/node/1979686
 projects[eck][patch][] = "http://drupal.org/files/1979686-eck-ief-clone-button.patch"
 
-projects[elements][version] = "1.4"
+projects[elements][version] = "1.5"
 projects[elements][subdir] = "contrib"
 
 projects[email][version] = "1.3"
@@ -130,7 +124,7 @@ projects[entity][patch][] = "https://www.drupal.org/files/issues/entity-entity_g
 projects[entitycache][version] = "1.5"
 projects[entitycache][subdir] = "contrib"
 
-projects[entityreference][version] = "1.4"
+projects[entityreference][version] = "1.5"
 projects[entityreference][subdir] = "contrib"
 
 projects[entity_view_mode][version] = "1.0-rc1"
@@ -158,21 +152,15 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.2"
+projects[file_entity][version] = "2.16"
 projects[file_entity][subdir] = "contrib"
 
-projects[filefield_sources][version] = "1.10"
+projects[filefield_sources][version] = "1.11"
 projects[filefield_sources][subdir] = "contrib"
-; Show the actual attach upload path using drupal_realpath()
-; @see https://drupal.org/node/2033269
-projects[filefield_sources][patch][] = "http://drupal.org/files/2033269-attach-realpath.patch"
 
 ; @todo Change to 1.3 release when available.
-projects[field_group][version] = "1.5"
+projects[field_group][version] = "1.6"
 projects[field_group][subdir] = "contrib"
-; field_group_field_group_to_hook_code PHP 7 support
-; @see https://www.drupal.org/node/2661484
-projects[filefield_sources][patch][] = "https://www.drupal.org/files/issues/field_group-php7-2661484-2.patch"
 
 projects[flag][version] = "3.9"
 projects[flag][subdir] = "contrib"
@@ -186,7 +174,7 @@ projects[geofield][subdir] = "contrib"
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
 
-projects[google_analytics][version] = "2.3"
+projects[google_analytics][version] = "2.4"
 projects[google_analytics][subdir] = "contrib"
 
 projects[helper][version] = "1.9"
@@ -205,13 +193,13 @@ projects[link][version] = "1.4"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.8"
+projects[media][version] = "2.16"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.7"
 projects[menu_block][subdir] = "contrib"
 
-projects[migrate][version] = "2.8"
+projects[migrate][version] = "2.9"
 projects[migrate][subdir] = "contrib"
 
 projects[migrate_d2d][version] = "2.1"
@@ -266,7 +254,7 @@ projects[schemaorg][subdir] = "contrib"
 projects[schema_reference][version] = "1.0-beta5"
 projects[schema_reference][subdir] = "contrib"
 
-projects[search_api][version] = "1.21"
+projects[search_api][version] = "1.22"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.6"
@@ -275,7 +263,7 @@ projects[search_api_db][subdir] = "contrib"
 projects[search_api_ranges][version] = "1.5"
 projects[search_api_ranges][subdir] = "contrib"
 
-projects[search_api_page][version] = "1.3"
+projects[search_api_page][version] = "1.4"
 projects[search_api_page][subdir] = "contrib"
 
 projects[select_or_other][version] = "2.22"
@@ -297,7 +285,7 @@ projects[taxonomy_manager][subdir] = "contrib"
 projects[telephone][version] = "1.0-alpha1"
 projects[telephone][subdir] = "contrib"
 
-projects[term_reference_tree][version] = "1.10"
+projects[term_reference_tree][version] = "1.11"
 projects[term_reference_tree][subdir] = "contrib"
 ; Add filtering to the widget
 ; @see https://drupal.org/node/2007164
@@ -316,7 +304,7 @@ projects[token_formatters][subdir] = "contrib"
 projects[url][version] = "1.0"
 projects[url][subdir] = "contrib"
 
-projects[views][version] = "3.16"
+projects[views][version] = "3.18"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.4"
@@ -325,7 +313,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "4.15"
+projects[webform][version] = "4.16"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
@@ -389,7 +377,7 @@ libraries[flexslider][directory_name] = "flexslider"
 
 ; Currently using a fork of the Chosen module that includes the Chosen library.
 libraries[chosen][download][type] = "get"
-libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.7.0/chosen_v1.7.0.zip"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.8.3/chosen_v1.8.3.zip"
 libraries[chosen][directory_name] = "chosen"
 
 libraries[superfish][download][type] = "get"
@@ -398,7 +386,7 @@ libraries[superfish][download][subtree] = "Superfish-for-Drupal-1.x"
 libraries[superfish][directory_name] = "superfish"
 
 libraries[datatables][download][type]= "get"
-libraries[datatables][download][url] = "https://www.datatables.net/releases/DataTables-1.10.15.zip"
+libraries[datatables][download][url] = "http://datatables.net/releases/DataTables-1.9.3.zip"
 libraries[datatables][directory_name] = "datatables"
 
 libraries[jquery-ui-timepicker][download][type] = "get"
