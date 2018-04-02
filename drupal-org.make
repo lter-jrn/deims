@@ -90,7 +90,7 @@ projects[diff][subdir] = "contrib"
 ; Aegir migration error, 'Unable to enable the Drafty module, it is a new dependency that must be downloaded.',
 ; when upgrading from workbench_moderation module version 7.1x to 7.3x. Solution is to install the drafty module
 ; before migrating the site in Aegir
-projects[drafty][version] = "1.0-beta4"
+projects[drafty][version] = "1.0-rc1"
 projects[drafty][subdir] = "contrib"
 
 projects[ds][version] = "2.14"
@@ -115,7 +115,7 @@ projects[email][subdir] = "contrib"
 projects[emptyparagraphkiller][version] = "1.0-beta2"
 projects[emptyparagraphkiller][subdir] = "contrib"
 
-projects[entity][version] = "1.8"
+projects[entity][version] = "1.9"
 projects[entity][subdir] = "contrib"
 ; PHP Fatal error: Class name must be a valid object or a string.
 ; @see https://www.drupal.org/node/1667536
@@ -152,7 +152,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.16"
+projects[file_entity][version] = "2.17"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
@@ -254,7 +254,7 @@ projects[schemaorg][subdir] = "contrib"
 projects[schema_reference][version] = "1.0-beta5"
 projects[schema_reference][subdir] = "contrib"
 
-projects[search_api][version] = "1.22"
+projects[search_api][version] = "1.23"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.6"
@@ -266,7 +266,7 @@ projects[search_api_ranges][subdir] = "contrib"
 projects[search_api_page][version] = "1.4"
 projects[search_api_page][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.22"
+projects[select_or_other][version] = "2.23"
 projects[select_or_other][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
