@@ -93,7 +93,7 @@ projects[diff][subdir] = "contrib"
 projects[drafty][version] = "1.0-rc1"
 projects[drafty][subdir] = "contrib"
 
-projects[ds][version] = "2.14"
+projects[ds][version] = "2.15"
 projects[ds][subdir] = "contrib"
 
 projects[eck][version] = "2.0-rc9"
