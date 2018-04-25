@@ -193,7 +193,7 @@ projects[link][version] = "1.4"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.16"
+projects[media][version] = "2.19"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.7"
