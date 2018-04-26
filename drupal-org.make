@@ -79,7 +79,7 @@ projects[date_facets][version] = "1.0"
 projects[date_facets][subdir] = "contrib"
 
 ; Dev relese is ok here.
-projects[devel][version] = "1.5"
+projects[devel][version] = "1.6"
 projects[devel][subdir] = "contrib"
 
 projects[diff][version] = "3.3"
@@ -130,7 +130,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entity_view_mode][version] = "1.0-rc1"
 projects[entity_view_mode][subdir] = "contrib"
 
-projects[extlink][version] = "1.18"
+projects[extlink][version] = "1.20"
 projects[extlink][subdir] = "contrib"
 
 projects[facetapi][version] = "1.5"
@@ -152,7 +152,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.17"
+projects[file_entity][version] = "2.20"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
@@ -254,7 +254,7 @@ projects[schemaorg][subdir] = "contrib"
 projects[schema_reference][version] = "1.0-beta5"
 projects[schema_reference][subdir] = "contrib"
 
-projects[search_api][version] = "1.23"
+projects[search_api][version] = "1.24"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.6"
@@ -304,7 +304,7 @@ projects[token_formatters][subdir] = "contrib"
 projects[url][version] = "1.0"
 projects[url][subdir] = "contrib"
 
-projects[views][version] = "3.18"
+projects[views][version] = "3.20"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.4"
@@ -313,7 +313,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "4.16"
+projects[webform][version] = "4.17"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
@@ -331,7 +331,7 @@ projects[workbench_moderation][patch][] = "http://drupal.org/files/1972888-workb
 projects[workbench_email][version] = "3.12"
 projects[workbench_email][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.4"
+projects[wysiwyg][version] = "2.5"
 projects[wysiwyg][subdir] = "contrib"
 ; Aegir failed migration attempt: 
 ;  PROBLEM:
