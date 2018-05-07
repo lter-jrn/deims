@@ -1,0 +1,7 @@
+name = ISO Harvest List
+description = Provides a data set Harvest List of ISO 19115-2:2009(E) metadata
+core = 7.x
+package = DEIMS Base
+dependencies[] = field
+dependencies[] = helper
+files[] = lib/IsoHarvestList.php

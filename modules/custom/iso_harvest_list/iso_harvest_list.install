@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the ISO module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function iso_harvest_list_install() {
+  variable_set('iso_harvest_list_doc_type', 'iso://standards.iso.org/iso/19115');
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function iso_harvest_list_uninstall() {
+  variable_del('iso_harvest_list_doc_type');
+}
