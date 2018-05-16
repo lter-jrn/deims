@@ -152,7 +152,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.20"
+projects[file_entity][version] = "2.21"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
@@ -189,7 +189,7 @@ projects[inline_entity_form][patch][] = https://www.drupal.org/files/issues/1872
 projects[libraries][version] = "2.3"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.4"
+projects[link][version] = "1.5"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
