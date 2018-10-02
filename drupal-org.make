@@ -152,7 +152,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.21"
+projects[file_entity][version] = "2.22"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
@@ -186,14 +186,14 @@ projects[inline_entity_form][subdir] = "contrib"
 ; @see https://drupal.org/node/1872316
 projects[inline_entity_form][patch][] = https://www.drupal.org/files/issues/1872316-ief-bundle-selection-erv-22_0.patch
 
-projects[libraries][version] = "2.3"
+projects[libraries][version] = "2.4"
 projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.5"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.19"
+projects[media][version] = "2.20"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.7"
@@ -313,7 +313,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "4.17"
+projects[webform][version] = "4.18"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
