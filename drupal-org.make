@@ -101,7 +101,8 @@ projects[eck][subdir] = "contrib"
 ; Add entity access alter for ECK entities.
 ; @see https://drupal.org/node/1969394
 ; projects[eck][patch][] = "http://drupal.org/files/1969394-eck-entity-access-alter.patch"
-projects[eck][patch][] = "https://www.drupal.org/files/issues/eck-entity_access_alter-1969394-28.patch"
+; projects[eck][patch][] = "https://www.drupal.org/files/issues/eck-entity_access_alter-1969394-28.patch"
+projects[eck][patch][] = "https://www.drupal.org/files/issues/2018-07-31/eck-entity_access_alter-1969394-39.patch"
 ; Add IEF clone button support
 ; @see https://drupal.org/node/1979686
 projects[eck][patch][] = "http://drupal.org/files/1979686-eck-ief-clone-button.patch"
