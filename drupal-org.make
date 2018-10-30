@@ -93,7 +93,7 @@ projects[diff][subdir] = "contrib"
 projects[drafty][version] = "1.0-rc1"
 projects[drafty][subdir] = "contrib"
 
-projects[ds][version] = "2.15"
+projects[ds][version] = "2.16"
 projects[ds][subdir] = "contrib"
 
 projects[eck][version] = "2.0-rc10"
@@ -175,7 +175,7 @@ projects[geofield][subdir] = "contrib"
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
 
-projects[google_analytics][version] = "2.4"
+projects[google_analytics][version] = "2.5"
 projects[google_analytics][subdir] = "contrib"
 
 projects[helper][version] = "1.9"
@@ -187,7 +187,7 @@ projects[inline_entity_form][subdir] = "contrib"
 ; @see https://drupal.org/node/1872316
 projects[inline_entity_form][patch][] = https://www.drupal.org/files/issues/1872316-ief-bundle-selection-erv-22_0.patch
 
-projects[libraries][version] = "2.4"
+projects[libraries][version] = "2.5"
 projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.5"
@@ -233,7 +233,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto_persist][version] = "1.4"
 projects[pathauto_persist][subdir] = "contrib"
 
-projects[print][version] = "2.0"
+projects[print][version] = "2.2"
 projects[print][subdir] = "contrib"
 
 projects[recaptcha][version] = "2.2"
@@ -243,7 +243,7 @@ projects[recaptcha][subdir] = "contrib"
 projects[responsive_tables][version] = "2.x-dev"
 projects[responsive_tables][subdir] = "contrib"
 
-projects[rules][version] = "2.1"
+projects[rules][version] = "2.11"
 projects[rules][subdir] = "contrib"
 
 projects[schema][version] = "1.3"
@@ -255,10 +255,10 @@ projects[schemaorg][subdir] = "contrib"
 projects[schema_reference][version] = "1.0-beta5"
 projects[schema_reference][subdir] = "contrib"
 
-projects[search_api][version] = "1.24"
+projects[search_api][version] = "1.25"
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = "1.6"
+projects[search_api_db][version] = "1.7"
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = "1.5"
@@ -267,7 +267,7 @@ projects[search_api_ranges][subdir] = "contrib"
 projects[search_api_page][version] = "1.4"
 projects[search_api_page][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.23"
+projects[select_or_other][version] = "2.24"
 projects[select_or_other][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
@@ -308,7 +308,7 @@ projects[url][subdir] = "contrib"
 projects[views][version] = "3.20"
 projects[views][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.4"
+projects[views_bulk_operations][version] = "3.5"
 projects[views_bulk_operations][subdir] = "contrib"
 
 projects[views_content_cache][version] = "3.0-alpha3"
