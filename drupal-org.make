@@ -5,7 +5,7 @@ core = "7.x"
 ; Contributed modules
 ; -----------------------------------------------------------------------------
 
-projects[addressfield][version] = "1.2"
+projects[addressfield][version] = "1.3"
 projects[addressfield][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
@@ -96,7 +96,7 @@ projects[drafty][subdir] = "contrib"
 projects[ds][version] = "2.15"
 projects[ds][subdir] = "contrib"
 
-projects[eck][version] = "2.0-rc9"
+projects[eck][version] = "2.0-rc10"
 projects[eck][subdir] = "contrib"
 ; Add entity access alter for ECK entities.
 ; @see https://drupal.org/node/1969394
@@ -168,7 +168,7 @@ projects[flag][subdir] = "contrib"
 projects[flexslider][version] = "2.0-rc2"
 projects[flexslider][subdir] = "contrib"
 
-projects[geofield][version] = "2.3"
+projects[geofield][version] = "2.4"
 projects[geofield][subdir] = "contrib"
 
 projects[geophp][version] = "1.7"
@@ -193,7 +193,7 @@ projects[link][version] = "1.5"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.20"
+projects[media][version] = "2.21"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.7"
