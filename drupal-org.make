@@ -82,7 +82,7 @@ projects[date_facets][subdir] = "contrib"
 projects[devel][version] = "1.6"
 projects[devel][subdir] = "contrib"
 
-projects[diff][version] = "3.3"
+projects[diff][version] = "3.4"
 projects[diff][subdir] = "contrib"
 
 ; The workbench_moderation module version 7.x-3.x now requires the drafty module to be installed.
@@ -137,7 +137,7 @@ projects[extlink][subdir] = "contrib"
 projects[facetapi][version] = "1.5"
 projects[facetapi][subdir] = "contrib"
 
-projects[features][version] = "2.10"
+projects[features][version] = "2.11"
 projects[features][subdir] = "contrib"
 
 projects[field_permissions][version] = "1.0"
