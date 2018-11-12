@@ -48,6 +48,8 @@ For the example commands below, 'www' represents the complete path to your site'
 Optionally, you can specify the destination folder by adding the folder name to the end of the line above.
 Build the site into your webroot:
 
+NOTE: Newer version of drush require inclusion of the full path to the make file in the drush make command line listed below or an error results.
+
 * `cd deims`
 * `drush make build-deims.make '/path/to/your-site/www' --prepare-install --contrib-destination=profiles/deims`
 
