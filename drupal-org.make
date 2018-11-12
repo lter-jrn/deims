@@ -153,7 +153,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.23"
+projects[file_entity][version] = "2.25"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
