@@ -8,7 +8,7 @@ core = "7.x"
 projects[addressfield][version] = "1.3"
 projects[addressfield][subdir] = "contrib"
 
-projects[admin_menu][version] = "3.0-rc5"
+projects[admin_menu][version] = "3.0-rc6"
 projects[admin_menu][subdir] = "contrib"
 
 projects[admin_select][version] = "1.5"
@@ -47,7 +47,7 @@ projects[captcha][subdir] = "contrib"
 projects[ctools][version] = "1.14"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.7"
+projects[context][version] = "3.9"
 projects[context][subdir] = "contrib"
 
 projects[chosen][version] = "2.1"
@@ -197,10 +197,10 @@ projects[link][subdir] = "contrib"
 projects[media][version] = "2.21"
 projects[media][subdir] = "contrib"
 
-projects[menu_block][version] = "2.7"
+projects[menu_block][version] = "2.8"
 projects[menu_block][subdir] = "contrib"
 
-projects[migrate][version] = "2.9"
+projects[migrate][version] = "2.11"
 projects[migrate][subdir] = "contrib"
 
 projects[migrate_d2d][version] = "2.1"
@@ -264,7 +264,7 @@ projects[search_api_db][subdir] = "contrib"
 projects[search_api_ranges][version] = "1.5"
 projects[search_api_ranges][subdir] = "contrib"
 
-projects[search_api_page][version] = "1.4"
+projects[search_api_page][version] = "1.5"
 projects[search_api_page][subdir] = "contrib"
 
 projects[select_or_other][version] = "2.24"
