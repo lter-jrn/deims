@@ -20,7 +20,7 @@ projects[auto_entitylabel][subdir] = "contrib"
 projects[autosave][version] = "2.2"
 projects[autosave][subdir] = "contrib"
 
-projects[backup_migrate][version] = "3.5"
+projects[backup_migrate][version] = "3.6"
 projects[backup_migrate][subdir] = "contrib"
 
 projects[biblio][version] = "1.0-rc7"
