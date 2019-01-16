@@ -314,7 +314,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "4.18"
+projects[webform][version] = "4.19"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
