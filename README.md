@@ -48,10 +48,11 @@ For the example commands below, 'www' represents the complete path to your site'
 Optionally, you can specify the destination folder by adding the folder name to the end of the line above.
 Build the site into your webroot:
 
-NOTE: Newer version of drush require inclusion of the full path to the make file in the drush make command line listed below or an error results.
+NOTE: NEWER VERSIONS OF DRUSH REQUIRE INCLUSION OF FULL PATH TO MAKE FILE in the following drush make command line listed below or an error results.
+Replace <path to make file folder> with the appropriate path.
 
 * `cd deims`
-* `drush make build-deims.make '/path/to/your-site/www' --prepare-install --contrib-destination=profiles/deims`
+* `drush make /<path to make file folder>/build-deims.make '/path/to/your-site/www' --prepare-install --contrib-destination=profiles/deims`
 
 Hint: Make use of symbolink links, so you dont have to use prepend all your command line work with sudo. For example,
 clone DEIMS to your home dir, then your drush make would may be like this just be:
