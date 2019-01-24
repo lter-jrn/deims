@@ -243,7 +243,7 @@ projects[recaptcha][subdir] = "contrib"
 projects[responsive_tables][version] = "2.x-dev"
 projects[responsive_tables][subdir] = "contrib"
 
-projects[rules][version] = "2.11"
+projects[rules][version] = "2.12"
 projects[rules][subdir] = "contrib"
 
 projects[schema][version] = "1.3"
