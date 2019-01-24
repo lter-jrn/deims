@@ -56,7 +56,9 @@ Replace <path to make file folder> with the appropriate path.
 
 Hint: Make use of symbolink links, so you dont have to use prepend all your command line work with sudo. For example,
 clone DEIMS to your home dir, then your drush make would may be like this just be:
-* `/<path to make file folder>/drush make build-deims.make </path/to/your-site/www> --prepare-install --contrib-destination=profiles/deims`
+* 'cd ~/'
+
+* `/<path to make file folder>/drush make build-deims.make www --prepare-install --contrib-destination=profiles/deims`
 After which, you would simply create your link. For example, in Debian Ubuntu:
 
 * sudo ln -s /home/myusername/deims/www /var/www/html/deims
