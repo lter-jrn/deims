@@ -52,11 +52,11 @@ NOTE: NEWER VERSIONS OF DRUSH REQUIRE INCLUSION OF FULL PATH TO MAKE FILE in the
 Replace <path to make file folder> with the appropriate path.
 
 * `cd deims`
-* `drush make /<path to make file folder>/build-deims.make '/path/to/your-site/www' --prepare-install --contrib-destination=profiles/deims`
+* `drush make /<path to make file folder>/build-deims.make </path/to/your-site/www> --prepare-install --contrib-destination=profiles/deims`
 
 Hint: Make use of symbolink links, so you dont have to use prepend all your command line work with sudo. For example,
 clone DEIMS to your home dir, then your drush make would may be like this just be:
-* `drush make build-deims.make www --prepare-install --contrib-destination=profiles/deims`
+* `/<path to make file folder>/drush make build-deims.make </path/to/your-site/www> --prepare-install --contrib-destination=profiles/deims`
 After which, you would simply create your link. For example, in Debian Ubuntu:
 
 * sudo ln -s /home/myusername/deims/www /var/www/html/deims
