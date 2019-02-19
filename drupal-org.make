@@ -23,7 +23,7 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.6"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "1.0-rc7"
+projects[biblio][version] = "1.0-rc9"
 projects[biblio][subdir] = "contrib"
 ; Biblio: Authors - Undefined property: stdClass::$biblio_tid
 ; @see https://www.drupal.org/node/1598824
@@ -44,7 +44,7 @@ projects[biblio][patch][] = "https://www.drupal.org/files/issues/secondary-sort-
 projects[captcha][version] = "1.5"
 projects[captcha][subdir] = "contrib"
 
-projects[ctools][version] = "1.14"
+projects[ctools][version] = "1.15"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.9"
@@ -175,7 +175,7 @@ projects[geofield][subdir] = "contrib"
 projects[geophp][version] = "1.7"
 projects[geophp][subdir] = "contrib"
 
-projects[google_analytics][version] = "2.5"
+projects[google_analytics][version] = "2.6"
 projects[google_analytics][subdir] = "contrib"
 
 projects[helper][version] = "1.9"
@@ -236,7 +236,7 @@ projects[pathauto_persist][subdir] = "contrib"
 projects[print][version] = "2.2"
 projects[print][subdir] = "contrib"
 
-projects[recaptcha][version] = "2.2"
+projects[recaptcha][version] = "2.3"
 projects[recaptcha][subdir] = "contrib"
 
 ; Dave Reid maintains this D8 backport, dev release is ok.
@@ -320,7 +320,7 @@ projects[webform][subdir] = "contrib"
 projects[workbench][version] = "1.2"
 projects[workbench][subdir] = "contrib"
 
-projects[workbench_access][version] = "1.5"
+projects[workbench_access][version] = "1.6"
 projects[workbench_access][subdir] = "contrib"
 
 projects[workbench_moderation][version] = "3.0"
