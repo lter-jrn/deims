@@ -25,18 +25,12 @@ projects[backup_migrate][subdir] = "contrib"
 
 projects[biblio][version] = "1.0-rc9"
 projects[biblio][subdir] = "contrib"
-; Biblio: Authors - Undefined property: stdClass::$biblio_tid
-; @see https://www.drupal.org/node/1598824
-projects[biblio][patch][] = "https://www.drupal.org/files/biblio-undefined_biblio_tid-1598824-3.patch"
-; Biblio crossref module acquiring data using "GET" instead of POST
-; @see https://www.drupal.org/node/2168043
-projects[biblio][patch][] = "http://drupal.org/files/issues/biblio_crossref_GET_not_POST-UNKNOWN-0.patch"
 ; Biblio weighted listing for Publication Types
 ; @see https://www.drupal.org/node/545722
-projects[biblio][patch][] = "https://www.drupal.org/files/issues/biblio-publication_weighted_listing-545722-15.patch"
+projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-02-10/biblio-publication_weighted_listing-545722-17.patch"
 ; Biblio PHP7 compatibility
 ; @see https://www.drupal.org/node/2806971
-projects[biblio][patch][] = "https://www.drupal.org/files/issues/biblio-fix_php7_issues-2806971-6.patch"
+projects[biblio][patch][] = "https://www.drupal.org/files/issues/biblio-fix_php7_issues-2806971-19.patch"
 ; Bibliography secondary sort within year by primary author
 ; @see https://www.drupal.org/node/1310186
 projects[biblio][patch][] = "https://www.drupal.org/files/issues/secondary-sort-year-by-primary-author-1310186-19.patch"
