@@ -12,10 +12,9 @@ projects[drupal][patch][] = "https://www.drupal.org/files/field_hook_presave_and
 ; @see https://drupal.org/node/1982776
 ;projects[drupal][patch][] = "http://drupal.org/files/1982776-field-formatter-weight-do-not-test_0.patch"
 projects[drupal][patch][] = "https://www.drupal.org/files/issues/formatter_weight-1982776-29.patch"
-; Uncomment settings.local.php support in settings.php
+; Uncomment settings.local.php support in default.settings.php
 ; @see https://drupal.org/node/1118520 and https://www.drupal.org/node/2620332
-;projects[drupal][patch][] = https://www.drupal.org/files/issues/2620332-settings-local-uncommented-do-not-test.patch
-projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal-7.53-1118520.patch"
+projects[drupal][patch][] = https://www.drupal.org/files/issues/2620332-settings-local-uncommented-do-not-test.patch
 ; Aegir migrate error: WD php: Error: Class name must be a valid object or a string in entity_get_controller() 
 ; (line 8048 of /var/aegir/platforms/drupal-7.61-deims/includes/common.inc).
 ; @see https://www.drupal.org/node/1982810
