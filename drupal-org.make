@@ -186,7 +186,7 @@ projects[inline_entity_form][patch][] = https://www.drupal.org/files/issues/1872
 projects[libraries][version] = "2.5"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.5"
+projects[link][version] = "1.6"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
