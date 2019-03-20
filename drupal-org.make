@@ -251,7 +251,7 @@ projects[schemaorg][subdir] = "contrib"
 projects[schema_reference][version] = "1.0-beta5"
 projects[schema_reference][subdir] = "contrib"
 
-projects[search_api][version] = "1.25"
+projects[search_api][version] = "1.26"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.7"
@@ -301,7 +301,7 @@ projects[token_formatters][subdir] = "contrib"
 projects[url][version] = "1.0"
 projects[url][subdir] = "contrib"
 
-projects[views][version] = "3.20"
+projects[views][version] = "3.21"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.5"
