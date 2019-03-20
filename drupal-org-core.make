@@ -3,7 +3,7 @@ core = 7.x
 
 ; Drupal core
 projects[drupal][type] = core
-projects[drupal][version] = 7.64
+projects[drupal][version] = 7.65
 
 ; Ensure that hook_field_presave() is run for default field values.
 ; @see https://drupal.org/node/1899498
@@ -20,3 +20,6 @@ projects[drupal][patch][] = https://www.drupal.org/files/issues/2620332-settings
 ; @see https://www.drupal.org/node/1982810
 ;projects[drupal][patch][] = "https://www.drupal.org/files/issues/drupal-entity_get_controller_null_controller-1982810-11-d7.patch"
 projects[drupal][patch][] = "https://www.drupal.org/files/issues/2018-05-03/1982810-20.patch"
+; Notice: Undefined property: stdClass::$comment_count in comment_node_page_additions() (line 724 of /...
+; @see https://www.drupal.org/project/drupal/issues/1020658
+projects[drupal][patch][] = "https://www.drupal.org/files/issues/1020658-comment-count.patch"

@@ -23,7 +23,7 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.6"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "1.0-rc9"
+projects[biblio][version] = "1.0-rc10"
 projects[biblio][subdir] = "contrib"
 ; Biblio weighted listing for Publication Types
 ; @see https://www.drupal.org/node/545722
@@ -43,7 +43,7 @@ projects[captcha][subdir] = "contrib"
 projects[ctools][version] = "1.15"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.9"
+projects[context][version] = "3.10"
 projects[context][subdir] = "contrib"
 
 projects[chosen][version] = "2.1"
@@ -75,7 +75,7 @@ projects[date_facets][version] = "1.0"
 projects[date_facets][subdir] = "contrib"
 
 ; Dev relese is ok here.
-projects[devel][version] = "1.6"
+projects[devel][version] = "1.7"
 projects[devel][subdir] = "contrib"
 
 projects[diff][version] = "3.4"
