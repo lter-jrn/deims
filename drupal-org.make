@@ -23,7 +23,7 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.6"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "1.0-rc10"
+projects[biblio][version] = "1.0-rc7"
 projects[biblio][subdir] = "contrib"
 ; Biblio weighted listing for Publication Types
 ; @see https://www.drupal.org/node/545722
