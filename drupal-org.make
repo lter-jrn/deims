@@ -27,7 +27,8 @@ projects[biblio][version] = "1.0-rc7"
 projects[biblio][subdir] = "contrib"
 ; Biblio weighted listing for Publication Types
 ; @see https://www.drupal.org/node/545722
-projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-02-10/biblio-publication_weighted_listing-545722-17.patch"
+; COMMENTED OUT FOLLOWING DUE TO INSTALLATION ERROR
+;projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-02-10/biblio-publication_weighted_listing-545722-17.patch"
 ; Biblio PHP7 compatibility
 ; @see https://www.drupal.org/node/2806971
 ; NOTE: 1. The following patch has been commited to biblio-7.x-1.0-rc9 except the changes to includes/biblio_theme.inc which may no longer be needed.
