@@ -206,7 +206,7 @@ projects[migrate_d2d][subdir] = "contrib"
 projects[migrate_extras][version] = "2.5"
 projects[migrate_extras][subdir] = "contrib"
 
-projects[module_filter][version] = "2.1"
+projects[module_filter][version] = "2.2"
 projects[module_filter][subdir] = "contrib"
 
 projects[name][version] = "1.10"
