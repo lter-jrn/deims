@@ -23,20 +23,11 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.6"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "1.0-rc7"
+projects[biblio][version] = "1.0"
 projects[biblio][subdir] = "contrib"
-; Biblio weighted listing for Publication Types
-; @see https://www.drupal.org/node/545722
-; COMMENTED OUT FOLLOWING DUE TO INSTALLATION ERROR
-;projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-02-10/biblio-publication_weighted_listing-545722-17.patch"
-; Biblio PHP7 compatibility
-; @see https://www.drupal.org/node/2806971
-; NOTE: 1. The following patch has been commited to biblio-7.x-1.0-rc9 except the changes to includes/biblio_theme.inc which may no longer be needed.
-;       2. Leaving following entry in case the theme include changes are actually needed in the future.
-;projects[biblio][patch][] = "https://www.drupal.org/files/issues/biblio-fix_php7_issues-2806971-19.patch"
 ; Bibliography secondary sort within year by primary author
 ; @see https://www.drupal.org/node/1310186
-projects[biblio][patch][] = "https://www.drupal.org/files/issues/secondary-sort-year-by-primary-author-1310186-19.patch"
+projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-05-07/biblio-secondary-sort-by-first-author-1310186-21.patch"
 	
 projects[captcha][version] = "1.5"
 projects[captcha][subdir] = "contrib"
