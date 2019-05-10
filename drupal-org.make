@@ -28,6 +28,10 @@ projects[biblio][subdir] = "contrib"
 ; Bibliography secondary sort within year by primary author
 ; @see https://www.drupal.org/node/1310186
 projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-05-07/biblio-secondary-sort-by-first-author-1310186-21.patch"
+; Fix merge authors with same last name issue
+; @see https://www.drupal.org/project/biblio/issues/2876022#comment-13102583
+projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-05-10/biblio-fix-merge-authors-same-last-name-2876022-2.patch"
+
 	
 projects[captcha][version] = "1.5"
 projects[captcha][subdir] = "contrib"
@@ -293,7 +297,7 @@ projects[token_formatters][subdir] = "contrib"
 projects[url][version] = "1.0"
 projects[url][subdir] = "contrib"
 
-projects[views][version] = "3.21"
+projects[views][version] = "3.22"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.5"
