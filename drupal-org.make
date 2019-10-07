@@ -23,7 +23,7 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.6"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "1.0"
+projects[biblio][version] = "1.1"
 projects[biblio][subdir] = "contrib"
 ; Bibliography secondary sort within year by primary author
 ; @see https://www.drupal.org/node/1310186
@@ -33,7 +33,7 @@ projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-05-07/bibl
 projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-05-10/biblio-fix-merge-authors-same-last-name-2876022-2.patch"
 
 	
-projects[captcha][version] = "1.5"
+projects[captcha][version] = "1.6"
 projects[captcha][subdir] = "contrib"
 
 projects[ctools][version] = "1.15"
@@ -126,13 +126,13 @@ projects[entity_view_mode][subdir] = "contrib"
 projects[extlink][version] = "1.20"
 projects[extlink][subdir] = "contrib"
 
-projects[facetapi][version] = "1.5"
+projects[facetapi][version] = "1.6"
 projects[facetapi][subdir] = "contrib"
 
 projects[features][version] = "2.11"
 projects[features][subdir] = "contrib"
 
-projects[field_permissions][version] = "1.0"
+projects[field_permissions][version] = "1.1"
 projects[field_permissions][subdir] = "contrib"
 
 projects[field_referenced_delete][version] = "1.0"
@@ -145,7 +145,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.25"
+projects[file_entity][version] = "2.26"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
@@ -173,7 +173,7 @@ projects[google_analytics][subdir] = "contrib"
 projects[helper][version] = "1.9"
 projects[helper][subdir] = "contrib"
 
-projects[inline_entity_form][version] = "1.8"
+projects[inline_entity_form][version] = "1.9"
 projects[inline_entity_form][subdir] = "contrib"
 ; Limit 'Add new' bundle options when entityreference uses a view for selection
 ; @see https://drupal.org/node/1872316
@@ -186,7 +186,7 @@ projects[link][version] = "1.6"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.21"
+projects[media][version] = "2.23"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.8"
@@ -204,7 +204,7 @@ projects[migrate_extras][subdir] = "contrib"
 projects[module_filter][version] = "2.2"
 projects[module_filter][subdir] = "contrib"
 
-projects[name][version] = "1.10"
+projects[name][version] = "1.11"
 projects[name][subdir] = "contrib"
 
 projects[noggin][version] = "1.1"
@@ -306,7 +306,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "4.19"
+projects[webform][version] = "4.20"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
@@ -324,7 +324,7 @@ projects[workbench_moderation][patch][] = "http://drupal.org/files/1972888-workb
 projects[workbench_email][version] = "3.12"
 projects[workbench_email][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.5"
+projects[wysiwyg][version] = "2.6"
 projects[wysiwyg][subdir] = "contrib"
 ; Aegir failed migration attempt: 
 ;  PROBLEM:
