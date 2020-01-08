@@ -145,7 +145,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.26"
+projects[file_entity][version] = "2.27"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
@@ -182,11 +182,11 @@ projects[inline_entity_form][patch][] = https://www.drupal.org/files/issues/1872
 projects[libraries][version] = "2.5"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.6"
+projects[link][version] = "1.7"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.23"
+projects[media][version] = "2.24"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.8"
