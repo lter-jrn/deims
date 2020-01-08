@@ -23,7 +23,7 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.6"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "1.1"
+projects[biblio][version] = "1.2"
 projects[biblio][subdir] = "contrib"
 ; Bibliography secondary sort within year by primary author
 ; @see https://www.drupal.org/node/1310186
