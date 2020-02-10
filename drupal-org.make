@@ -172,6 +172,8 @@ projects[google_analytics][subdir] = "contrib"
 
 projects[helper][version] = "1.9"
 projects[helper][subdir] = "contrib"
+; Warning: strnatcasecmp() expects parameter 2 to be string, array given in admin_menu_element_sort()
+; @see https://www.drupal.org/project/helper/issues/3056849
 
 projects[inline_entity_form][version] = "1.9"
 projects[inline_entity_form][subdir] = "contrib"
@@ -207,8 +209,10 @@ projects[module_filter][subdir] = "contrib"
 projects[name][version] = "1.11"
 projects[name][subdir] = "contrib"
 
-projects[noggin][version] = "1.1"
-projects[noggin][subdir] = "contrib"
+; Removed noggin which is no longer supported
+; CSS used to replace noggin module for header image (banner)
+;projects[noggin][version] = "1.1"
+;projects[noggin][subdir] = "contrib"
 
 projects[options_element][version] = "1.12"
 projects[options_element][subdir] = "contrib"
@@ -268,7 +272,7 @@ projects[strongarm][subdir] = "contrib"
 projects[superfish][version] = "2.0"
 projects[superfish][subdir] = "contrib"
 
-projects[taxonomy_csv][version] = "5.10"
+projects[taxonomy_csv][version] = "5.11"
 projects[taxonomy_csv][subdir] = "contrib"
 
 projects[taxonomy_manager][version] = "1.0"
@@ -306,7 +310,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "4.20"
+projects[webform][version] = "4.21"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
