@@ -23,7 +23,7 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.6"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "1.2"
+projects[biblio][version] = "1.3"
 projects[biblio][subdir] = "contrib"
 ; Bibliography secondary sort within year by primary author
 ; @see https://www.drupal.org/node/1310186
@@ -310,7 +310,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "4.21"
+projects[webform][version] = "4.22"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
