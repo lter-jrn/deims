@@ -20,7 +20,7 @@ projects[auto_entitylabel][subdir] = "contrib"
 projects[autosave][version] = "2.2"
 projects[autosave][subdir] = "contrib"
 
-projects[backup_migrate][version] = "3.6"
+projects[backup_migrate][version] = "3.9"
 projects[backup_migrate][subdir] = "contrib"
 
 projects[biblio][version] = "1.3"
@@ -123,7 +123,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entity_view_mode][version] = "1.0-rc1"
 projects[entity_view_mode][subdir] = "contrib"
 
-projects[extlink][version] = "1.20"
+projects[extlink][version] = "1.21"
 projects[extlink][subdir] = "contrib"
 
 projects[facetapi][version] = "1.6"
@@ -145,7 +145,7 @@ projects[file_download_count][version] = "1.0-rc1"
 projects[file_download_count][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[file_entity][version] = "2.27"
+projects[file_entity][version] = "2.30"
 projects[file_entity][subdir] = "contrib"
 
 projects[filefield_sources][version] = "1.11"
@@ -304,13 +304,13 @@ projects[url][subdir] = "contrib"
 projects[views][version] = "3.23"
 projects[views][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.5"
+projects[views_bulk_operations][version] = "3.6"
 projects[views_bulk_operations][subdir] = "contrib"
 
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "4.22"
+projects[webform][version] = "4.23"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
