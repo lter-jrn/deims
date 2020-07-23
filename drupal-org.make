@@ -33,7 +33,7 @@ projects[biblio][patch][] = "https://www.drupal.org/files/issues/2020-02-04/1310
 projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-05-10/biblio-fix-merge-authors-same-last-name-2876022-2.patch"
 
 	
-projects[captcha][version] = "1.6"
+projects[captcha][version] = "1.7"
 projects[captcha][subdir] = "contrib"
 
 projects[ctools][version] = "1.15"
@@ -188,7 +188,7 @@ projects[link][version] = "1.7"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.24"
+projects[media][version] = "2.26"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.8"
@@ -301,7 +301,7 @@ projects[token_formatters][subdir] = "contrib"
 projects[url][version] = "1.0"
 projects[url][subdir] = "contrib"
 
-projects[views][version] = "3.23"
+projects[views][version] = "3.24"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.6"
