@@ -36,7 +36,7 @@ projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-05-10/bibl
 projects[captcha][version] = "1.7"
 projects[captcha][subdir] = "contrib"
 
-projects[ctools][version] = "1.15"
+projects[ctools][version] = "1.17"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.10"
@@ -129,7 +129,7 @@ projects[extlink][subdir] = "contrib"
 projects[facetapi][version] = "1.6"
 projects[facetapi][subdir] = "contrib"
 
-projects[features][version] = "2.11"
+projects[features][version] = "2.12"
 projects[features][subdir] = "contrib"
 
 projects[field_permissions][version] = "1.1"
@@ -164,7 +164,7 @@ projects[flexslider][subdir] = "contrib"
 projects[geofield][version] = "2.4"
 projects[geofield][subdir] = "contrib"
 
-projects[geophp][version] = "1.7"
+projects[geophp][version] = "1.8"
 projects[geophp][subdir] = "contrib"
 
 projects[google_analytics][version] = "2.6"
@@ -275,7 +275,7 @@ projects[superfish][subdir] = "contrib"
 projects[taxonomy_csv][version] = "5.11"
 projects[taxonomy_csv][subdir] = "contrib"
 
-projects[taxonomy_manager][version] = "1.0"
+projects[taxonomy_manager][version] = "1.1"
 projects[taxonomy_manager][subdir] = "contrib"
 
 ; Dave Reid maintains this D8 backport.
