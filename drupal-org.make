@@ -23,7 +23,7 @@ projects[autosave][subdir] = "contrib"
 projects[backup_migrate][version] = "3.9"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[biblio][version] = "1.3"
+projects[biblio][version] = "1.4"
 projects[biblio][subdir] = "contrib"
 ; Bibliography secondary sort within year by primary author
 ; @see https://www.drupal.org/node/1310186
@@ -131,7 +131,7 @@ projects[extlink][subdir] = "contrib"
 projects[facetapi][version] = "1.6"
 projects[facetapi][subdir] = "contrib"
 
-projects[features][version] = "2.12"
+projects[features][version] = "2.13"
 projects[features][subdir] = "contrib"
 
 projects[field_permissions][version] = "1.1"
@@ -256,7 +256,7 @@ projects[schema_reference][subdir] = "contrib"
 projects[search_api][version] = "1.26"
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = "1.7"
+projects[search_api_db][version] = "1.8"
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = "1.5"
