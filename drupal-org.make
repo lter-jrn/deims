@@ -33,7 +33,7 @@ projects[biblio][patch][] = "https://www.drupal.org/files/issues/2020-02-04/1310
 projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-05-10/biblio-fix-merge-authors-same-last-name-2876022-2.patch"
 ; Missing bundle property on entity of type node in entity_extract_ids()
 ; @see https://www.drupal.org/project/biblio/issues/3118697
-projects[biblio][patch][] = "https://www.drupal.org/files/issues/2020-04-20/biblio-entity_malformed_exception-3118697-6.patch"
+;projects[biblio][patch][] = "https://www.drupal.org/files/issues/2020-04-20/biblio-entity_malformed_exception-3118697-6.patch"
 	
 projects[captcha][version] = "1.7"
 projects[captcha][subdir] = "contrib"
