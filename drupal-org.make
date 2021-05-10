@@ -38,7 +38,7 @@ projects[biblio][patch][] = "https://www.drupal.org/files/issues/2019-05-10/bibl
 projects[captcha][version] = "1.7"
 projects[captcha][subdir] = "contrib"
 
-projects[ctools][version] = "1.17"
+projects[ctools][version] = "1.19"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.10"
@@ -63,7 +63,7 @@ projects[datatables][patch][] = "http://drupal.org/files/2021741-installation-bl
 ; @see https://drupal.org/node/1904140#comment-7724631
 projects[datatables][patch][] = "http://drupal.org/files/1904140-datatables-fix-errors-when-headers-are-strings.patch"
 
-projects[date][version] = "2.10"
+projects[date][version] = "2.11"
 projects[date][subdir] = "contrib"
 ; String Offset errors on edit page using PHP 7.1.0
 ; @see https://www.drupal.org/node/2843367
@@ -186,11 +186,11 @@ projects[inline_entity_form][patch][] = https://www.drupal.org/files/issues/1872
 projects[libraries][version] = "2.5"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.7"
+projects[link][version] = "1.9"
 projects[link][subdir] = "contrib"
 
 ; Dave Reid maintains this, ok to use dev for now.
-projects[media][version] = "2.26"
+projects[media][version] = "2.27"
 projects[media][subdir] = "contrib"
 
 projects[menu_block][version] = "2.8"
@@ -208,7 +208,7 @@ projects[migrate_extras][subdir] = "contrib"
 projects[module_filter][version] = "2.2"
 projects[module_filter][subdir] = "contrib"
 
-projects[name][version] = "1.11"
+projects[name][version] = "1.12"
 projects[name][subdir] = "contrib"
 
 ; Removed noggin which is no longer supported
@@ -253,7 +253,7 @@ projects[schemaorg][subdir] = "contrib"
 projects[schema_reference][version] = "1.0-beta5"
 projects[schema_reference][subdir] = "contrib"
 
-projects[search_api][version] = "1.26"
+projects[search_api][version] = "1.27"
 projects[search_api][subdir] = "contrib"
 
 projects[search_api_db][version] = "1.8"
@@ -290,7 +290,7 @@ projects[term_reference_tree][subdir] = "contrib"
 ; @see https://drupal.org/node/2007164
 projects[term_reference_tree][patch][] = "http://drupal.org/files/2007164-filter.patch"
 
-projects[token][version] = "1.7"
+projects[token][version] = "1.8"
 projects[token][subdir] = "contrib"
 
 projects[token_field][version] = "1.x-dev"
