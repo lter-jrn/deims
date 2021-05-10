@@ -67,7 +67,7 @@ projects[date][version] = "2.11"
 projects[date][subdir] = "contrib"
 ; String Offset errors on edit page using PHP 7.1.0
 ; @see https://www.drupal.org/node/2843367
-projects[date][patch][] = "https://www.drupal.org/files/issues/2843367-php71-string-offset-26.patch"
+#projects[date][patch][] = "https://www.drupal.org/files/issues/2843367-php71-string-offset-26.patch"
 
 projects[date_facets][version] = "1.0"
 projects[date_facets][subdir] = "contrib"
